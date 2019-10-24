@@ -1,0 +1,58 @@
+/* Body */
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    background: url('../images/keyboard_background.jpg');
+    display: grid;
+    min-height: 100vh;
+    place-items: center center;
+}
+
+/* Box for logging in */
+.login-box {
+    display: grid;
+    min-height: 40vh;
+    min-width: 60vw;
+    /* Appearance */
+    padding: 20px;
+    background: rgba(128, 128, 128, 0.808);
+    border-radius: 5px;
+}
+
+.login-box input {
+    border-radius: 5px;
+}
+
+.btn-box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px;
+    place-items: center center;
+}
+
+.submit {
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background: rgb(6, 80, 6);
+}
+
+.forgot {
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.forgot:hover {
+    background: rgb(160, 4, 4);
+}
